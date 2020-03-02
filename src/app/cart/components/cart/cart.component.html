@@ -1,0 +1,11 @@
+<div *ngIf="selectedProducts else emptyCart">
+    <ul *ngFor="let product of selectedProducts">
+        <li>
+            <span>{{product.name}}</span>&nbsp;<i>{{product.price}}</i>
+        </li>
+    </ul>
+</div>
+
+<ng-template #emptyCart>
+    Cart is Empty
+</ng-template>
