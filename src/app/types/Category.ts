@@ -5,3 +5,4 @@ enum Category {
 }
 
 export default Category;
+// файлы именуются в нижнем регистре
