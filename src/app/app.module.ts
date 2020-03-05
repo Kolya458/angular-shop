@@ -24,3 +24,5 @@ import { ProductListComponent } from './product-component/components/product-lis
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+// Название папки product-component не отображает ее наполнения. Не стоит добавлять -component,
+// если там лежат не только компоненты. Я вам дал структуру проекта, но вы почему-то решили ее не использовать
